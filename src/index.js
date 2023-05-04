@@ -3,11 +3,40 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {createBrowserRouter, RouterProvider,} from "react-router-dom";
+import Home from './component/Home/Home';
+import About from './component/About/About';
+import Error from './component/Error/Error';
+import HajjPage from './component/HajjPage/HajjPage';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <App></App>,
+    errorElement: <Error></Error>,
+    children: [
+      {
+        path: '/',
+        element: <Home></Home>,
+        loader: () => fetch('./DB/db.json')
+      },
+      {
+        path: '/about',
+        element: <About></About>
+      },
+      {
+        path: '/hajj',
+        element: <HajjPage></HajjPage>
+      }
+    ]
+  }
+]);
+
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router}></RouterProvider>
   </React.StrictMode>
 );
 

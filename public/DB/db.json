@@ -1,0 +1,99 @@
+[
+    {
+      "id": "642d830e0769974ec4411c8f",
+      "index": 0,
+      "category": "Hajj",
+      "image": "./Images/Hajj.png",
+      "packageName": "Regular Hajj Package",
+      "packageDetails": "coming soon..."
+
+    },
+    {
+      "id": "642d830e8f8b56794d794fb4",
+      "index": 1,
+      "category": "Hajj",
+      "image": "./Images/Hajj.png",
+      "packageName": "Regular Hajj Package",
+      "packageDetails": "coming soon..."
+    },
+    {
+      "id": "642d830ea79b32fa5c689b27",
+      "index": 2,
+      "category": "Hajj",
+      "image": "./Images/Hajj.png",
+      "packageName": "Regular Hajj Package",
+      "packageDetails": "coming soon..."
+    },
+    {
+      "id": "642d830e77fd8e1655c81a14",
+      "index": 3,
+      "category": "Umrah",
+      "image": "./Images/umrah.png",
+      "packageName": "Regular Umrah Package",
+      "packageDetails": "coming soon..."
+    },
+    {
+      "id": "642d830e2471b8047f59b552",
+      "index": 4,
+      "category": "Umrah",
+      "image": "./Images/umrah.png",
+      "packageName": "Regular Umrah Package",
+      "packageDetails": "coming soon..."
+    },
+    {
+      "id": "642d830edca2b605fa5ed22e",
+      "index": 5,
+      "category": "Umrah",
+      "image": "./Images/umrah.png",
+      "packageName": "Regular Umrah Package",
+      "packageDetails": "coming soon..."
+    },
+    {
+      "id": "642d830e08a0cbc9a8a85e7b",
+      "index": 6,
+      "category": "Inbound",
+      "image": "",
+      "packageName": "Inbound Package",
+      "packageDetails": "coming soon..."
+    },
+    {
+      "id": "642d830e56ed7d4b49126e7e",
+      "index": 7,
+      "category": "Inbound",
+      "image": "",
+      "packageName": "Inbound Package",
+      "packageDetails": "coming soon..."
+    },
+    {
+      "id": "642d830e019fdbfa925c6619",
+      "index": 8,
+      "category": "Inbound",
+      "image": "",
+      "packageName": "Inbound Package",
+      "packageDetails": "coming soon..."
+    },
+    {
+      "id": "642d830e24d3aa7b645674d8",
+      "index": 9,
+      "category": "Outbound",
+      "image": "",
+      "packageName": "Outbound Package",
+      "packageDetails": "coming soon..."
+    },
+    {
+      "id": "642d830e6d9ea959bda525c6",
+      "index": 10,
+      "category": "Outbound",
+      "image": "",
+      "packageName": "Outbound Package",
+      "packageDetails": "coming soon..."
+    },
+    {
+      "id": "642d830e864ffbe1a4d19f0d",
+      "index": 11,
+      "category": "Outbound",
+      "image": "",
+      "packageName": "Outbound Package",
+      "packageDetails": "coming soon..."
+    }
+  ]
